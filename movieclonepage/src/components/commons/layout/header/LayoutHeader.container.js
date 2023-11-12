@@ -1,5 +1,6 @@
 import { useRouter } from "next/router"
 import * as L from "./LayoutHeader.styles"
+import LoginForm from "../login";
 
 const NAVIGATION_MENUS = [
   { name: "영화", page: "/movie" },
@@ -26,6 +27,7 @@ export default function LayoutHeader() {
           {NAVIGATION_MENUS.map((el) => (
             <L.Items id={el.page} key={el.page} onClick={onClickItems}>{el.name}</L.Items>
           ))}
+          <LoginForm />
         </L.ItemWrapper>
       </L.Wrapper>
     </>
