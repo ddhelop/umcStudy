@@ -1,5 +1,5 @@
-import MovieClone from "../../src/components/units/MovieClone/MovieClone.container";
+import Home from "../../src/components/units/Home/Home.container";
 
-export default function MovieClonePage() {
-  return <MovieClone />;
+export default function HomePage() {
+  return <Home />;
 }
