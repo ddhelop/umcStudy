@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from 'styled-components'
 
 export const All = styled.div`
   width: 1920px;
@@ -46,13 +46,13 @@ export const MovieHoverDiv = styled.div`
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   opacity: 0;
-  :hover {
+  &:hover {
     opacity: 1;
     transition: top 0.3s, opacity 0.3s;
   }
 `;
 export const MovieTitle = styled.p`
-  margin: 40px 0 0 15px;
+  margin: 20px 0 0 15px;
   font-size: 16px;
   font-weight: 700;
 `;
