@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
@@ -20,10 +21,15 @@ export const MenuDiv = styled.div`
 export const Icon = styled.img`
   width:200px;
   margin-right:70px;
+  cursor: pointer;
 `
 export const MenuElement = styled.div`
   color: white;
   margin-right: 60px;
   font-size: 20px;
-
+  color:inherit;
+`
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+  color:white;
 `
