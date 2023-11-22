@@ -7,6 +7,9 @@ export default function Header() {
   const onClickHome = () => {
     nav('/')
   }
+  const onClickLogin = () => {
+    nav('/Login')
+  }
 
   return (
     <>
@@ -26,6 +29,10 @@ export default function Header() {
           <H.MenuElement>
             <H.StyledLink to="/Human">인물</H.StyledLink> 
           </H.MenuElement>
+
+          <H.LoginForm>
+            <H.Button onClick={onClickLogin}>로그인</H.Button>
+          </H.LoginForm>
         </H.MenuDiv>
       </H.Wrapper>
     </>  

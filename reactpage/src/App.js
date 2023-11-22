@@ -8,6 +8,7 @@ import Human from "./pages/Human";
 import Home from "./pages/Home";
 import MovieDetail from "./pages/Movie/MovieDetail/MovieDetail";
 import NotFound from "./pages/NotFound";
+import Login from "./pages/Login/Login";
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
           <Route path="/TV" element={<TV />} />
           <Route path="/Program" element={<Program />} />
           <Route path="/Human" element={<Human />} />
-          <Route path="*" element={<NotFound />}/>
+          <Route path="*" element={<NotFound />} />
+          <Route path="/Login" element={<Login />} />
       </Routes>
       </BrowserRouter>
     </div>

@@ -33,3 +33,14 @@ export const StyledLink = styled(Link)`
   text-decoration: none;
   color:white;
 `
+
+export const LoginForm = styled.div`
+  margin-left: 15px;
+`
+
+export const Button = styled.button`
+  width:90px;
+  height:40px;
+  border-radius: 15px;
+  cursor: pointer;
+`
